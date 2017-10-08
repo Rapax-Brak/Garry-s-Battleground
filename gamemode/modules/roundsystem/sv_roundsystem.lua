@@ -16,7 +16,7 @@ function GM.Rounds:CheckRoundStatus()
 
 	timer.Create("CheckRoundTimer", 1, 1, function()
 		for k, v in pairs(player.GetAll()) do
-			if (GAMEMODE.Utilities:GetAliveCount() == 1 and v:Alive()) then
+			if (GAMEMODE.Utilities:GetAliveCount() <= 1 and v:Alive()) then
 				self:EndRound(v:Nick())
 			end
 		end
