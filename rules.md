@@ -64,6 +64,8 @@ Disrespecting staff members includes Harrassment of any kind, spamming, or just 
 
 3rd offense - Who ever you are disrespecting gets to choose, just no banning.
 
+4th offense - admins choice can include any punishment except a ban above 3 days
+
 ## ADMIN RULES (If you are not an admin does not apply to you; but, feel free to report any admin breaking these rules.)
 
 ### Do not leak information
