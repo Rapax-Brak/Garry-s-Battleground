@@ -84,6 +84,15 @@ The punishments are up for a reason follow them if you do not follow them and it
 
 3rd offense - perm demote 
 
+### Do not give your self pointshop points
+Doing so is not only Abuse, but a whole differnt punishment to go along
+
+1st offense - Warning and Removal of ALL point shop points / items
+
+2nd offense - refer to 2nd offense on abuse, and removal of all point shop points / items
+
+3rd offense - refer to abuse, AND Removal of all point shop points / items
+
 
 ### You must follow all player rules, you are not above the law.
 All the punishments for player rule offenses apply to you and if you break these rules and are called out on it, and there is no other admin on and, you choose not to punish your self, that is against the rules.
