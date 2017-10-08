@@ -95,3 +95,13 @@ All the punishments for player rule offenses apply to you and if you break these
 3rd offense - demotion under probationary period 7 days
 
 4th offense - perm demote
+
+## How to report admins
+
+First you will need to have a claim this can include any claim you wish from the rules above 
+
+Second you must have evidence this can include Audio, Video, Voice or Witnesses 
+
+Third you must make a fourm post on the fourms there is a Admin Report section make a post and management this includes Head of Staff, Community Manager, Staff Manager, Manager, and Owner will take a look at it
+
+if your application is being investigated we will send you a message and when it is denied we will send you a message along with a reason and if it is accepted we will send you a message including why it was accepted, what that admins punishment will be and a thank you along with 1000 cosmetic points
