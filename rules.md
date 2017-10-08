@@ -4,8 +4,11 @@
 
 ### No Ghosting
 
-Ghosting is when you die and are in spectator mode you tell your friends where people are, that is not allowed if you do this you will be
-banned 
+Ghosting is when you die and are in spectator mode you tell your friends where people are, that is not allowed
+1st offense - Warning
+2nd offense - ban 30 mins
+3rd offense - ban 3 days
+4th offense - ban 3 years
 
 ### No Hacking
 Hacking is using external or internal applications or scripts in order to exploit the game, doing this will result in a
@@ -18,6 +21,7 @@ Hacking is using external or internal applications or scripts in order to exploi
 ### No delaying
 If you teamed up with a person when you are the last people left you have to kill each other if you do not atleast attempt to do this
 45 seconds between the time you are hte last people one of you will be slayed at random
+1st - inf offense - slay
 
 ### No exploiting gliches
 if you find a glich report it, if you abuse this glich. Glich may include map glich, specator glich, gun glich, or player glich and many more.
