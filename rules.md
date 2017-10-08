@@ -105,3 +105,5 @@ Second you must have evidence this can include Audio, Video, Voice or Witnesses
 Third you must make a fourm post on the fourms there is a Admin Report section make a post and management this includes Head of Staff, Community Manager, Staff Manager, Manager, and Owner will take a look at it
 
 if your application is being investigated we will send you a message and when it is denied we will send you a message along with a reason and if it is accepted we will send you a message including why it was accepted, what that admins punishment will be and a thank you along with 1000 cosmetic points
+
+Do not be afraid to report high ranking staff members all staff members must follow the rules just as players this includes Mods, Admins, Super Admins, Head of Staff, Staff Manager, Manager, and Owner/Founder clearly we cannot demote the Owner/Founder but if he is found abusing his power you have my Gurantee as Manager he will be slapped by him self recorded and posted to the fourms each and every single time he is reported and proven guilty.
