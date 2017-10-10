@@ -1,11 +1,11 @@
-Bronze VIP - 5$/month or 30$/year
+Bronze VIP - 5$/month or 30$/perm
 - Daily Point Shop Points - 200 points
 - VIP Crates every win - 1 crate per win
 - Special Bronze VIP only items
 - Bronze VIP Win sounds
 - Vote Mute/Gag
 
-Silver VIP - 10$/month or 60$/year
+Silver VIP - 10$/month or 60$/perm
 - Daily Point Shop Points - 500 points
 - VIP Crates every win - 3 crate per win
 - Special Bronze VIP only items
