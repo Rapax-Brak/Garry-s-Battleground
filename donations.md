@@ -41,3 +41,4 @@ Daimond VIP - 250$/Perm
 - Ability to slay 
 - A custom tag of your choosing along with a personal your choice win sound can be any sound you want just give us the MP3
 - Daimond VIP only Win sounds and Bronze VIP and Silver VIP and Gold VIP
+- Custom playermodel
