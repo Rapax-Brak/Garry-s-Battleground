@@ -1,3 +1,5 @@
+All VIP get priority in Admin Sits, Staff Reports, Player Reports, Suggestions, and Admin Applications
+
 Bronze VIP - 5$/month or 30$/perm
 - Daily Point Shop Points - 200 points
 - VIP Crates every win - 1 crate per win
