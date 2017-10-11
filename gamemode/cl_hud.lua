@@ -1,8 +1,9 @@
 surface.CreateFont("AliveCount", {
 	font = "DermaLarge",
-	size = 56,
+	size = ScreenScale(22),
 	weight = 600
 })
+
 local TimeLeft = 0
 net.Receive("DisplayTimer", function()
   TimeLeft = net.ReadInt(32)
