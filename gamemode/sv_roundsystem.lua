@@ -11,6 +11,11 @@ GBRounds.RoundActive = false
 function GBRounds.Start()
   GBRounds.RoundActive = true
 
+  for k, v in pairs(player.GetAll()) do
+    v:Spawn()
+    v:StripWeapons()
+  end
+
   print("Round started!")
 end
 
@@ -33,12 +38,12 @@ function GBRounds.Think()
 end
 hook.Add("Think", "GBRounds.Think", GBRounds.Think)
 
-util.AddNetworkString("displaytimerforhud")
+util.AddNetworkString("DisplayTimer")
 function GBRounds.Logic()
   if (player.GetAllAlive() > 1 and !GBRounds.RoundActive) then
     print(GBRounds.TimeLeft)
     for k, v in pairs(player.GetAll()) do
-      net.Start("displaytimerforhud")
+      net.Start("DisplayTimer")
         net.WriteInt(GBRounds.TimeLeft, 32)
       net.Send(v)
     end
