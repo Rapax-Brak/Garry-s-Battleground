@@ -46,9 +46,9 @@ Daimond VIP - 250$/Perm
 - Custom playermodel
 
 Extra Stuff:
-Point Shop Points 1000 = 1$ 
-Custom Tag = 5$
-Custom Player Model = 30$
-Custom Win Sound = 25$
+- Point Shop Points 1000 = 1$ 
+- Custom Tag = 5$
+- Custom Player Model = 30$
+- Custom Win Sound = 25$
 
 
