@@ -44,3 +44,27 @@ Daimond VIP - 250$/Perm
 - A custom tag of your choosing along with a personal your choice win sound can be any sound you want just give us the MP3
 - Daimond VIP only Win sounds and Bronze VIP and Silver VIP and Gold VIP
 - Custom playermodel
+
+Special Options - Starting 30$/perm
+Base Options: 
+- Daily Point Shop Points - 200 points/ +200 points = +1$
+- VIP Crates every win - 1 crate per win / +1 crate = +1$ 
+- if the overall is more than 30$ u get bronze and Silver VIP items if it is over 50 you get Gold items as well if it is over 100 you get Daimond VIP Only items and tag
+- Same with win sounds
+Optional Options:
+- Vote Kick and Vote Ban = +10$
+- Kick and Ban = +15$
+- Slay = +5$
+- Custom Tag = +5$
+- Custom Player Model = +20$
+
+Examples: 
+1200 Daily Point Shop Points = 5$
+6 VIP Crates + 5$
+Kick and Ban +10$
+Slay + 5$
+Custom Tag + 5$
+= 30 + 5 = 35 + 10 = 45 + 10 = 
+55 = Gold VIP items
+
+
