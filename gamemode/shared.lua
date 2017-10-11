@@ -6,7 +6,3 @@ GM.Website 	= "N/A"
 DeriveGamemode("sandbox")
 
 include(SERVER and "sv_includes.lua" or "cl_includes.lua")
-
-function GM:Initialize()
-	print("gamemode works so far yay!")
-end

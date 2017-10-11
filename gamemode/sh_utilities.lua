@@ -1,6 +1,8 @@
-GM.Utilities = {}
+/*
+	GetAllAlive
+*/
 
-function GM.Utilities:GetAliveCount()
+function player.GetAllAlive()
 	local count = 0
 
 	for k, v in pairs(player.GetAll()) do

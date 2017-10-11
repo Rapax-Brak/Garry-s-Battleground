@@ -1,22 +1,9 @@
-AddCSLuaFile()
+net.Receive("displaytimerforhud", function()
+  local t = net.ReadInt(32)
 
-/*---------------------------------------------------------------------------
-	Hide Default HUD Elements
----------------------------------------------------------------------------*/
-
-local elements = {
-	["CHudHealth"]				= true,
-	["CHudBattery"]				= true,
-	["CHudSuitPower"]			= true
-}
-
-local function HideDefaultHUD(name)
-	if (elements[name]) then return false end
-end
-hook.Add("HUDShouldDraw", "HideElements", HideDefaultHUD)
-
-function GM:HUDDrawTargetID()
-end
+  print(t)
+end)
 
 function GM:HUDPaint()
+    draw.SimpleText(player.GetAllAlive(), "DermaLarge", 25, 25, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 end
