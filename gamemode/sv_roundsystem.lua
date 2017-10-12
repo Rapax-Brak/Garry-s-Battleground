@@ -30,13 +30,16 @@ function GBRounds.End(winner)
   print("Round ended! Next round begins in " .. GBRounds.PrepTime .. " seconds.")
 end
 
+local t = false
 function GBRounds.Think()
   if (GBRounds.RoundActive) then
     for k, v in pairs(player.GetAll()) do
-      if (player.GetAllAlive() < 2 and v:Alive()) then
+      if (player.GetAllAlive() < 2 and v:Alive() and !t) then
         GBRounds.End(v)
+        t = true
         timer.Simple(10, function()
           GBRounds.RoundActive = false
+          t = false
         end)
       end
     end
