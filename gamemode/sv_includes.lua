@@ -25,3 +25,9 @@ include("sh_utilities.lua")
 
 include("sv_config.lua")
 include("sv_roundsystem.lua")
+
+/*
+  VGUI Icons
+*/
+
+resource.AddFile("materials/vgui/flaticons/bulletAmmo.png")
