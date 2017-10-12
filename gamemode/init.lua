@@ -27,5 +27,5 @@ end
 	PlayerDeath
 */
 
-function GM:PlayerDeath(ply)
+function GM:PlayerDeath(ply, weapon, attacker)
 end

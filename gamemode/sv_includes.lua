@@ -5,6 +5,7 @@
 AddCSLuaFile("cl_init.lua")
 AddCSLuaFile("cl_includes.lua")
 AddCSLuaFile("cl_hud.lua")
+AddCSLuaFile("cl_scoreboard.lua")
 
 /*
 	Shared

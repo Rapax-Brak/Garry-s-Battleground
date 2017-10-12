@@ -75,6 +75,8 @@ local function HUD_DisplayWinner()
 
 		draw.RoundedBox(0, (ScrW() / 2) - (width / 2), (ScrH() * 0.1) - (height / 2), width, height, Color(255, 255, 255, 150))
     draw.SimpleText(text, "DermaLarge", ScrW() / 2, ScrH() * 0.1, Color(0, 0, 0, 200), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+
+		timer.Simple(10, function() Winner = nil end)
 	end
 end
 
@@ -86,7 +88,7 @@ local function HUD_AliveCount()
   local w, h = ScrW() * 0.125, ScrH() * 0.06
   local padding = 25
 
-  draw.RoundedBox(0, ScrW() - (w + padding), padding, h, h, Color(0, 0, 0, 200))
+  draw.RoundedBox(0, ScrW() - (w + padding), padding, h, h, Color(0, 0, 0, 225))
   draw.RoundedBox(0, ScrW() - ((w - h) + padding), padding, w - h, h, Color(255, 255, 255, 150))
   draw.SimpleText(player.GetAllAlive(), "AliveCount", ScrW() - ((w + padding) - (h / 2)), (h / 2) + padding, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
   draw.SimpleText("ALIVE", "AliveCount", ScrW() - (((w - h) / 2) + padding), (h / 2) + padding, Color(0, 0, 0, 200), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)

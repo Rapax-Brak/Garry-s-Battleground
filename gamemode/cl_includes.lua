@@ -3,6 +3,7 @@
 */
 
 include("cl_hud.lua")
+include("cl_scoreboard.lua")
 
 /*
 	Shared
