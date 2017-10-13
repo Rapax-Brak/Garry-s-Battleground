@@ -1,0 +1,15 @@
+"garrysbattlegrounds"
+{
+	"base"			"base"
+	"title"  		"Garry's Battlegrounds"
+	"version"   	"1.0.0"
+	"menusystem"	"1"
+
+	"author_name"   "aSharpDev"
+	"author_email"  ""
+	"author_url"    ""
+
+	"icon"  ""
+	"info"  ""
+	"hide"  "0"
+}
