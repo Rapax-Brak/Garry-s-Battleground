@@ -24,10 +24,10 @@ function GM:ScoreboardShow()
     	draw.RoundedBox(0, 0, 0, w, h, Color(0, 0, 0, 200))
     end
     function PaintScroll.btnUp:Paint(w, h)
-    	draw.RoundedBox(0, 0, 0, w, h, Color(0, 0, 0, 225))
+    	draw.RoundedBox(0, 0, 0, w, h, Color(255, 255, 255, 125))
     end
     function PaintScroll.btnDown:Paint(w, h)
-    	draw.RoundedBox(0, 0, 0, w, h, Color(0, 0, 0, 225))
+    	draw.RoundedBox(0, 0, 0, w, h, Color(255, 255, 255, 125))
     end
     function PaintScroll.btnGrip:Paint(w, h)
     	draw.RoundedBox(0, 0, 0, w, h, color_white)
@@ -42,13 +42,16 @@ function GM:ScoreboardShow()
     GBPlayerList:Clear()
 
     for k, v in pairs(player.GetAll()) do
+      surface.SetFont("DermaLarge")
+      local nameWidth, nameHeight = surface.GetTextSize(v:Nick())
+
       local GBPlayerPanel = vgui.Create("DPanel", GBPlayerList)
       GBPlayerPanel:SetSize(GBPlayerList:GetWide(), 40)
       GBPlayerPanel:SetPos(0, 0)
       GBPlayerPanel.Paint = function(self, w, h)
-        draw.RoundedBox(0, 0, 0, w, h, Color(255, 255, 255, 150))
+        draw.RoundedBox(0, 0, 0, w, h, v:Alive() and Color(255, 255, 255, 150) or Color(255, 180, 180, 150))
         draw.SimpleText(v:Nick(), "DermaLarge", 45, h / 2, Color(0, 0, 0, 225), TEXT_ALIGN_LEFT, TEXT_ALIGN_CENTER)
-        draw.SimpleText(v:Ping() .. "ms", "DermaLarge", w - 20, h / 2, Color(0, 0, 0, 225), TEXT_ALIGN_RIGHT, TEXT_ALIGN_CENTER)
+        draw.SimpleText("Kills: " .. v:Frags(), "DermaLarge", w - 20, h / 2, Color(0, 0, 0, 225), TEXT_ALIGN_RIGHT, TEXT_ALIGN_CENTER)
       end
 
       local GBAvatar = vgui.Create("AvatarImage", GBPlayerPanel)
